@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 .vscode
+
+# Dir with comics images
+web_scraping/xkcd/

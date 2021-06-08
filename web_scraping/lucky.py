@@ -19,6 +19,7 @@ if len(sys.argv) > 1:
     # Retrieve top search result links.
     soup = bs4.BeautifulSoup(res.text, "html.parser")
     # pyperclip.copy(str(soup)) If you want to see result of scraping
+
     link_elems = soup.select('.kCrYT a')
     num_open = min(5, len(link_elems))
     # Open a browser tab for each result.
